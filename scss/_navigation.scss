@@ -1,0 +1,27 @@
+.nav-container {
+  background-color: white;
+  padding-top: 1.5rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 0 1.5rem;
+  }
+
+  a {
+    font-weight: 500;
+    color: $main-color;
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+}

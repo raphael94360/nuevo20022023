@@ -1,0 +1,14 @@
+.nuevo-partenaires {
+  background-color: white;
+  padding: 3rem 0;
+  h2 {
+    text-align: center;
+    color: $main-color;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.nuevo-partenaires--container {
+  display: flex;
+  justify-content: space-around;
+}

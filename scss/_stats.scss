@@ -1,0 +1,29 @@
+.nuevo-stats {
+  background-color: white;
+  padding: 3rem 0;
+  h2 {
+    text-align: center;
+    color: $main-color;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.nuevo-stats--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stats-block {
+  h3 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+  p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #333;
+  }
+}

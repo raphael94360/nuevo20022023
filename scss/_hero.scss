@@ -1,0 +1,19 @@
+.hero {
+  padding: 3rem 0;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-col1 {
+  max-width: 600px;
+  h1 {
+    color: $main-color;
+    padding-bottom: 2rem;
+  }
+  p {
+    line-height: 1.5rem;
+  }
+}

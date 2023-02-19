@@ -1,0 +1,51 @@
+.agence-home {
+  background-color: #f4f4f4;
+  padding: 3rem 0;
+  h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: $main-color;
+  }
+}
+
+.agence-home--container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.agence-home--block {
+  width: 280px;
+  background-color: white;
+  padding-bottom: 1.5rem;
+  margin: 1rem;
+  border-radius: 7px;
+
+  h3 {
+    padding: 1.2rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    background-color: $main-color;
+  }
+
+  p {
+    color: $secondary-color;
+    line-height: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  a {
+    color: #333;
+  }
+
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
+.agence-home--icone {
+  font-size: 2rem;
+}

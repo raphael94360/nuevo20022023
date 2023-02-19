@@ -1,0 +1,14 @@
+.nuevo-certifications {
+  background-color: white;
+  padding: 3rem 0;
+  h2 {
+    text-align: center;
+    color: $main-color;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.nuevo-certifications--container {
+  display: flex;
+  justify-content: space-between;
+}

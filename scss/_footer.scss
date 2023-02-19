@@ -1,0 +1,32 @@
+footer {
+  background-color: $main-color;
+  padding: 3rem 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container--block {
+  h3 {
+    color: $secondary-color;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+  }
+  ul {
+    a {
+      font-size: 0.8rem;
+      color: white;
+    }
+
+    a:hover {
+      color: $secondary-color;
+    }
+
+    li {
+      padding: 0.8rem 0;
+    }
+  }
+}

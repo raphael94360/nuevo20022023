@@ -1,0 +1,38 @@
+.coaching-home {
+  background-color: #f4f4f4;
+  padding: 3rem 0;
+  h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+    color: $main-color;
+  }
+}
+
+.coaching-home--container {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.coaching-home--block {
+  max-width: 280px;
+  background-color: white;
+  padding-bottom: 1.5rem;
+  margin: 1rem;
+  border-radius: 7px;
+
+  h3 {
+    padding: 1.2rem;
+    font-weight: 400;
+    color: $main-color;
+    text-align: center;
+  }
+
+  h3:hover {
+    color: $secondary-color;
+  }
+
+  img {
+    width: 280px;
+  }
+}

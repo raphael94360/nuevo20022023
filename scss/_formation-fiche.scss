@@ -1,0 +1,36 @@
+.formation-fiche {
+  background-color: #f4f4f4;
+}
+
+.formation-fiche--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formation-fiche--col1 {
+  // background-color: purple;
+  width: 800px;
+}
+
+.formation-fiche--block {
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 7px;
+  h2 {
+    color: $main-color;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  h3 {
+    color: $secondary-color;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+}
