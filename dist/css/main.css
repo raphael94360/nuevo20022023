@@ -343,7 +343,8 @@ a {
     font-size: 1.1rem;
     color: #333;
     margin-bottom: 1rem;
-    padding-left: 1rem; }
+    padding-left: 1rem;
+    line-height: 1.5rem; }
   .formation-fiche--block ul {
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -364,6 +365,17 @@ a {
     padding: 1rem;
     border-radius: 5px;
     text-align: center; }
+  .formation-fiche--right_link {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer; }
+    .formation-fiche--right_link a {
+      color: #333; }
+  .formation-fiche--right_link:hover {
+    background-color: #129cbd;
+    transition: background 0.4s ease-in; }
   .formation-fiche--right_brevet {
     font-size: 1.2rem;
     font-weight: 500;
