@@ -1,0 +1,63 @@
+.contact {
+  padding: 3rem 0;
+}
+
+.contact-container {
+  h1 {
+    color: $main-color;
+    margin-bottom: 5rem;
+  }
+}
+
+.contact-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  &_block {
+    background-color: #f4f4f4;
+    width: 400px;
+    height: 250px;
+    border-radius: 7px;
+    h2 {
+      padding: 15px 0;
+      text-align: center;
+      color: $main-color;
+      font-weight: 400;
+    }
+    .coord {
+      background-color: white;
+      padding: 15px;
+      margin: 0 10px;
+      text-align: center;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    .tel {
+      color: red;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    .titre {
+      color: $main-color;
+      font-weight: 700;
+    }
+    a {
+      color: #333;
+    }
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+.contact-hero-col1 {
+  max-width: 600px;
+  h1 {
+    color: $main-color;
+    padding-bottom: 2rem;
+  }
+  p {
+    line-height: 1.5rem;
+  }
+}

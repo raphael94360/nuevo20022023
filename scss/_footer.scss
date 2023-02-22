@@ -29,4 +29,15 @@ footer {
       padding: 0.8rem 0;
     }
   }
+
+  &_reseaux {
+    display: flex;
+    flex-direction: row;
+    a {
+      padding: 0 15px;
+    }
+    li {
+      font-size: 2rem;
+    }
+  }
 }

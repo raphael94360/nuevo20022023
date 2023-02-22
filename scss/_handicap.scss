@@ -1,0 +1,54 @@
+.handicap {
+  background-color: #f4f4f4;
+}
+
+.handicap--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.handicap--col1 {
+  width: 600px;
+  margin: 3rem 0;
+}
+
+.handicap--col2 {
+  width: 600px;
+  margin: 3rem 0;
+}
+
+.handicap--block {
+  &_text {
+    background-color: white;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-radius: 7px;
+    min-height: 450px;
+    h2 {
+      color: $main-color;
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+    h3 {
+      color: $secondary-color;
+      margin-bottom: 1rem;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      line-height: 1.5rem;
+    }
+  }
+
+  &_img {
+    margin-bottom: 3rem;
+    img {
+      width: 600px;
+      border-radius: 10px;
+    }
+  }
+}

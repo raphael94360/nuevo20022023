@@ -1,0 +1,141 @@
+.nuevo {
+  background-color: #f4f4f4;
+}
+
+.nuevo--container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nuevo--col1 {
+  // background-color: purple;
+  width: 850px;
+  margin: 3rem 0;
+}
+
+.nuevo--col2 {
+  margin: 3rem 0;
+}
+
+.nuevo--block {
+  background-color: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 7px;
+  h2 {
+    color: $main-color;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  h3 {
+    color: $secondary-color;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    line-height: 1.4rem;
+  }
+  ul {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+.indent {
+  margin-left: 1rem;
+}
+
+.nuevo--right {
+  width: 350px;
+  background-color: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 7px;
+
+  &_icone {
+    text-align: center;
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+  &_title {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  &_title:hover {
+    background-color: $secondary-color;
+    transition: background 0.4s ease-in;
+  }
+  &_brevet {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $main-color;
+  }
+  &_percent {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $main-color;
+  }
+  p {
+    margin: 1rem 0;
+    text-align: center;
+
+    a {
+      color: #333;
+    }
+  }
+}
+
+.current {
+  background-color: $secondary-color;
+}
+
+.nuevo--right_bis {
+  width: 600px;
+  background-color: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 7px;
+  &_icone {
+    text-align: center;
+    font-size: 2rem;
+    color: $secondary-color;
+  }
+  &_title {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  &_title:hover {
+    background-color: $secondary-color;
+    transition: background 0.4s ease-in;
+  }
+  &_brevet {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $main-color;
+  }
+  &_percent {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: $main-color;
+  }
+  p {
+    margin: 1rem 0;
+    text-align: center;
+
+    a {
+      color: #333;
+    }
+  }
+}

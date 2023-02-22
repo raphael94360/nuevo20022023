@@ -1,10 +1,30 @@
 .formation-home {
   background-color: #f4f4f4;
   padding: 3rem 0;
+  margin-bottom: 3rem;
   h2 {
     text-align: center;
     padding-bottom: 2rem;
     color: $main-color;
+  }
+  &_white {
+    background-color: #fff;
+    margin-bottom: 3rem;
+    h2 {
+      text-align: center;
+      padding-bottom: 2rem;
+      color: $main-color;
+    }
+  }
+  &_last {
+    background-color: #f4f4f4;
+    padding: 3rem 0;
+    margin-bottom: 0;
+    h2 {
+      text-align: center;
+      padding-bottom: 2rem;
+      color: $main-color;
+    }
   }
 }
 
@@ -40,5 +60,33 @@
 
   img {
     width: 280px;
+  }
+
+  &_white {
+    max-width: 280px;
+    background-color: #f4f4f4;
+    padding-bottom: 1.5rem;
+    margin: 1rem;
+    border-radius: 7px;
+    h3 {
+      padding: 1.2rem;
+      font-weight: 400;
+      color: $main-color;
+      text-align: center;
+    }
+
+    h3:hover {
+      color: $secondary-color;
+    }
+
+    p {
+      color: #333;
+      line-height: 1.3rem;
+      padding: 0 1.3rem;
+    }
+
+    img {
+      width: 280px;
+    }
   }
 }
