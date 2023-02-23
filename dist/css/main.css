@@ -270,12 +270,15 @@ a {
     text-align: center;
     background-color: #003e57; }
   .agence-home--block p {
-    color: #129cbd;
+    color: #003e57;
     line-height: 1.3rem;
     padding: 1rem;
-    text-align: center; }
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem; }
   .agence-home--block a {
-    color: #333; }
+    color: #333;
+    font-size: 1rem; }
   .agence-home--block a:hover {
     color: #129cbd; }
 
