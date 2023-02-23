@@ -294,17 +294,18 @@ a {
   display: flex;
   justify-content: space-between; }
 
-.stats-block h3 {
-  text-align: center;
-  padding-bottom: 1.5rem;
-  font-size: 2rem;
-  color: #129cbd; }
-
-.stats-block p {
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: #333; }
+.stats-block {
+  width: 400px; }
+  .stats-block h3 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #129cbd; }
+  .stats-block p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #333; }
 
 .nuevo-partenaires {
   background-color: white;
