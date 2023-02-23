@@ -16,8 +16,40 @@
   h2 {
     color: $main-color;
     padding-bottom: 2rem;
+    font-size: 1.3rem;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #333;
   }
   p {
     line-height: 1.5rem;
   }
+  &_contact {
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 7px;
+  }
+  &_nom,
+  &_mail,
+  &_phone {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+
+  &_mail {
+    a {
+      color: $main-color;
+    }
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+  // &_phone {
+  //   text-align: center;
+  // }
 }
