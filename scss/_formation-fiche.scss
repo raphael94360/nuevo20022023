@@ -39,14 +39,21 @@
     margin-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.9rem;
     text-align: justify;
   }
-
   ul {
     padding-left: 1rem;
     margin-bottom: 1rem;
     line-height: 1.5rem;
+  }
+  &_link {
+    color: $main-color;
+    font-weight: 500;
+  }
+  &_link:hover {
+    color: $secondary-color;
+    transition: color 0.2s ease-in;
   }
 }
 
@@ -56,22 +63,6 @@
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 7px;
-  // position: sticky;
-  // top: 30px;
-
-  a {
-    color: $main-color;
-    font-size: 1rem;
-    font-weight: 500;
-    display: block;
-    text-align: center;
-    padding-bottom: 1.2rem;
-  }
-
-  a:hover {
-    transition: color 0.2s ease-in;
-    color: $secondary-color;
-  }
 
   &_icone {
     text-align: center;
@@ -87,19 +78,18 @@
   }
 
   &_link {
+    display: block;
     background-color: #f4f4f4;
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
-    a {
-      color: #333;
+    color: $main-color;
+    &:hover {
+      color: white;
+      background-color: $secondary-color;
+      transition: background 0.4s ease-in;
     }
-  }
-
-  &_link:hover {
-    background-color: $secondary-color;
-    transition: background 0.4s ease-in;
   }
 
   &_brevet {
@@ -129,6 +119,29 @@
   &_contact-tel {
     font-weight: 600;
     color: $main-color;
+  }
+
+  &_contact-mail {
+    display: block;
+    text-align: center;
+    color: $main-color;
+    font-weight: 500;
+    &:hover {
+      color: $secondary-color;
+      transition: color 0.2s ease-in;
+    }
+  }
+
+  &_agence {
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+    color: $main-color;
+    font-weight: 500;
+    &:hover {
+      color: $secondary-color;
+      transition: color 0.2s ease-in;
+    }
   }
 
   p {
