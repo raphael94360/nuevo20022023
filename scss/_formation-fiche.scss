@@ -5,10 +5,10 @@
 .formation-fiche--container {
   display: flex;
   justify-content: space-between;
+  // overflow: auto;
 }
 
 .formation-fiche--col1 {
-  // background-color: purple;
   width: 850px;
   margin: 3rem 0;
 }
@@ -38,8 +38,11 @@
     color: #333;
     margin-bottom: 1rem;
     padding-left: 1rem;
+    padding-right: 1rem;
     line-height: 1.5rem;
+    text-align: justify;
   }
+
   ul {
     padding-left: 1rem;
     margin-bottom: 1rem;
@@ -53,6 +56,22 @@
   margin-bottom: 2rem;
   padding: 1rem;
   border-radius: 7px;
+  // position: sticky;
+  // top: 30px;
+
+  a {
+    color: $main-color;
+    font-size: 1rem;
+    font-weight: 500;
+    display: block;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+  a:hover {
+    transition: color 0.2s ease-in;
+    color: $secondary-color;
+  }
 
   &_icone {
     text-align: center;
@@ -92,6 +111,23 @@
   &_percent {
     font-size: 1.2rem;
     font-weight: 500;
+    color: $main-color;
+  }
+
+  &_contact {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: $main-color;
+    line-height: 1.5rem;
+  }
+
+  &_contact-name {
+    font-weight: 600;
+    color: $main-color;
+  }
+
+  &_contact-tel {
+    font-weight: 600;
     color: $main-color;
   }
 
