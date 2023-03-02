@@ -56,9 +56,28 @@ a {
     padding-bottom: 2rem; }
   .hero-col1 h2 {
     color: #003e57;
-    padding-bottom: 2rem; }
+    padding-bottom: 2rem;
+    font-size: 1.3rem; }
+  .hero-col1 h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #333; }
   .hero-col1 p {
     line-height: 1.5rem; }
+  .hero-col1_contact {
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 7px; }
+  .hero-col1_nom, .hero-col1_mail, .hero-col1_phone {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem; }
+  .hero-col1_mail a {
+    color: #003e57; }
+  .hero-col1_mail a:hover {
+    color: #129cbd; }
 
 .index-home {
   background-color: #f4f4f4;
@@ -251,12 +270,15 @@ a {
     text-align: center;
     background-color: #003e57; }
   .agence-home--block p {
-    color: #129cbd;
+    color: #003e57;
     line-height: 1.3rem;
     padding: 1rem;
-    text-align: center; }
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem; }
   .agence-home--block a {
-    color: #333; }
+    color: #333;
+    font-size: 1rem; }
   .agence-home--block a:hover {
     color: #129cbd; }
 
@@ -275,17 +297,18 @@ a {
   display: flex;
   justify-content: space-between; }
 
-.stats-block h3 {
-  text-align: center;
-  padding-bottom: 1.5rem;
-  font-size: 2rem;
-  color: #129cbd; }
-
-.stats-block p {
-  text-align: center;
-  font-weight: 500;
-  font-size: 1.3rem;
-  color: #333; }
+.stats-block {
+  width: 400px; }
+  .stats-block h3 {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #129cbd; }
+  .stats-block p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #333; }
 
 .nuevo-partenaires {
   background-color: white;
